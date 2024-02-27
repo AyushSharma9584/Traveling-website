@@ -1,7 +1,19 @@
 import React from 'react'
-import imgsrc from '../assets/g2.png';  
-import backgroundImage from '../assets/backgroundimg.png';       
-
+import backgroundImage from '../assets/backgroundimg.png';
+import bookimg from '../assets/book-img.png';
+import ukimg from '../assets/uk.png';
+import franceimg from '../assets/france.png';
+import pakistanimg from '../assets/pakistan.png';
+import italyimg from '../assets/italy.png';
+import indiaimg from '../assets/india.png';
+import usimg from '../assets/us.png';
+import g1img from '../assets/g1.png';
+import g2img from '../assets/g2.png';  
+import g3img from '../assets/g3.png';
+import g4img from '../assets/g4.png';
+import g5img from '../assets/g5.png';
+import g6img from '../assets/g6.png';
+import aboutimg from '../assets/about-img.png';
 const Home = () => {
   return (
     <>
@@ -27,7 +39,7 @@ const Home = () => {
           <div className="row">
             <div className="col-md-6 py-6 py-md-0 ">
               <div className="card">
-                <img src='src/assets/book-img.png' />
+                <img src={bookimg} />
               </div>
             </div>
 
@@ -63,7 +75,7 @@ const Home = () => {
             <div class="col-md-4 py-3 py-md-0">
 
               <div class="card">
-                <img src="src/assets/uk.png" alt="" />
+                <img src={ukimg} alt="" />
                 <div class="card-body">
                   <h3>United Kingdom</h3>
                   <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ut, doloribus!</p>
@@ -83,7 +95,7 @@ const Home = () => {
             <div class="col-md-4 py-3 py-md-0">
 
               <div class="card">
-                <img src="src/assets/france.png" alt="" />
+                <img src={franceimg} alt="" />
                 <div class="card-body">
                   <h3>France</h3>
                   <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ut, doloribus!</p>
@@ -103,7 +115,7 @@ const Home = () => {
             <div class="col-md-4 py-3 py-md-0">
 
               <div class="card">
-                <img src="src/assets/pakistan.png" alt="" />
+                <img src={pakistanimg} alt="" />
                 <div class="card-body">
                   <h3>Pakistan</h3>
                   <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ut, doloribus!</p>
@@ -132,7 +144,7 @@ const Home = () => {
             <div class="col-md-4 py-3 py-md-0">
 
               <div class="card">
-                <img src="src/assets/italy.png" alt="" />
+                <img src={italyimg} alt="" />
                 <div class="card-body">
                   <h3>Italy</h3>
                   <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ut, doloribus!</p>
@@ -152,7 +164,7 @@ const Home = () => {
             <div class="col-md-4 py-3 py-md-0">
 
               <div class="card">
-                <img src="src/assets/india.png" alt="" />
+                <img src={indiaimg} alt="" />
                 <div class="card-body">
                   <h3>India</h3>
                   <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ut, doloribus!</p>
@@ -172,7 +184,7 @@ const Home = () => {
             <div class="col-md-4 py-3 py-md-0">
 
               <div class="card">
-                <img src="src/assets/us.png" alt="" />
+                <img src={usimg} alt="" />
                 <div class="card-body">
                   <h3>United States</h3>
                   <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ut, doloribus!</p>
@@ -290,19 +302,19 @@ const Home = () => {
           <div className="row" style={{ marginTop: "30px" }}>
             <div className="col-md-4 py-3 py-md-0">
               <div className="card">
-                <img src='src/assets/g1.png' style={{ height: "230px" }} />
+                <img src={g1img} style={{ height: "230px" }} />
               </div>
             </div>
 
             <div className="col-md-4 py-3 py-md-0">
               <div className="card">
-                <img src={imgsrc} style={{ height: "230px" }} />
+                <img src={g2img} style={{ height: "230px" }} />
               </div>
             </div>
 
             <div className="col-md-4 py-3 py-md-0">
               <div className="card">
-                <img src='src/assets/g3.png' style={{ height: "230px" }} />
+                <img src={g3img} style={{ height: "230px" }} />
               </div>
             </div>
           </div>
@@ -310,19 +322,19 @@ const Home = () => {
           <div className="row" style={{ marginTop: "30px" }}>
             <div className="col-md-4 py-3 py-md-0">
               <div className="card">
-                <img src='src/assets/g4.png' style={{ height: "230px" }} />
+                <img src={g4img} style={{ height: "230px" }} />
               </div>
             </div>
 
             <div className="col-md-4 py-3 py-md-0">
               <div className="card">
-                <img src='src/assets/g5.png' style={{ height: "230px" }} />
+                <img src={g5img} style={{ height: "230px" }} />
               </div>
             </div>
 
             <div className="col-md-4 py-3 py-md-0">
               <div className="card">
-                <img src='src/assets/g6.png' style={{ height: "230px" }} />
+                <img src={g6img} style={{ height: "230px" }} />
               </div>
             </div>
           </div>
@@ -339,7 +351,7 @@ const Home = () => {
           <div className="row">
             <div className="col-md-6 py-3 py-md-0">
               <div className="card">
-                <img src='src/assets/about-img.png' />
+                <img src={aboutimg} />
               </div>
             </div>
             <div className="col-md-6 py-3 py-md-0">
